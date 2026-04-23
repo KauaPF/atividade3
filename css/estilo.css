@@ -1,0 +1,117 @@
+ /*Sintaxe do CSS*/
+/*  elemento {propriedade:valor}*/
+/* RESET CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {background-color: rgb(255, 255, 255);background-image: url(../imagens/logo_restaurante.png);
+  background-repeat: no-repeat;
+  background-size: inherit;
+  background-position: right;
+  background-attachment: fixed;  
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+h1{color: rgb(0, 0, 0);
+font-family: "comic Newe", cursive;
+font-weight: 700;
+text-transform: uppercase;
+}
+h2{background-color: rgb(255, 255, 255);}
+/*Criar regras para alterar a cor de fundo
+dos blocos header, main e footer */
+p main {
+    
+    width: 300px;
+    height: 150px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+header{
+    /*background-color: darkseagreen;*/
+    /*WIDTH - ALTERA A LARGURA DO ELEMENTO*/
+    width: 100%;
+   
+  
+} 
+main {
+    background-color: rgb(197, 197, 197);
+    width: 80%;
+    border-radius: 10
+
+}
+footer{
+    background-color: rgb(197, 196, 195);
+    width: 100%;
+;
+}
+h1{display: inline;}
+img {}
+
+li {display: inline;}
+nav {
+    
+    /*TEXT-ALIGN - Alinhamento do texto*/
+    text-align: center;
+    margin-top: 20px;
+    height: 40px;
+}
+nav ol{
+    padding-top: 10px;
+}
+nav ol li{
+    border-style: solid;
+    padding: 5px;
+    margin-left: 2px;
+    background-color: blueviolet ;
+}
+nav ol li:hover{
+    background-color: blue;
+    font-size: 20px;
+    border-style: none;
+    border-bottom-style:solid;
+    border-bottom-color: yellow;
+    border-radius: 30px;
+    font-weight: 900;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(240, 241, 255);
+}
+#topo {
+    width:90%;
+    background-color: blueviolet;
+    text-align: center;
+    margin: 0 auto; /*centraliza os elemento na horizontal*/
+    margin-top:20px;
+    border-radius: 20px;
+}
+header{
+    height: 250px;
+}
+img {
+    border-radius: 50%;
+}
+#prato_dia table {background-image:url("data:image/jpeg;base64,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");
+    border-radius: 10px;
+}
+tbody{
+    background-color: blueviolet;
+}
+thead{
+    background-color: rgb(168, 134, 134);
+}
