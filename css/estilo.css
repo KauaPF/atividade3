@@ -114,3 +114,7 @@ tbody{
 thead{
     background-color: rgb(168, 134, 134);
 }
+footer img:hover{
+    border-bottom-style: solid;
+    border-bottom-color:rgb(220, 205, 255)
+}
